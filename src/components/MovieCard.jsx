@@ -1,7 +1,7 @@
 function MovieCard({ movie }) {
 
     function onFavouriteClick() {
-        alert("Clicked.")
+        alert("Clicked.");
     }
 
     return (
@@ -19,7 +19,7 @@ function MovieCard({ movie }) {
                 <p>{movie.release_date}</p>
             </div>
         </div>
-    )
+    );
 }
 
-export default MovieCard
+export default MovieCard;

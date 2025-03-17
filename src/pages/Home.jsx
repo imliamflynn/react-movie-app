@@ -30,7 +30,7 @@ function Home() {
             </form>
             <div className="movies-grid">
                 {movies.map(movie =>
-                    movie.title.toLowerCase().startsWith(searchQuery) &&
+                    //movie.title.toLowerCase().startsWith(searchQuery) &&
                     <MovieCard movie={movie} key={movie.id} />
                 )}
             </div>
@@ -38,4 +38,4 @@ function Home() {
     );
 }
 
-export default Home
+export default Home;
